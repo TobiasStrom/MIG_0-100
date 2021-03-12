@@ -27,6 +27,6 @@ class _GameInputState extends State<GameInput> {
           },
         ),
       ],
-    );;
+    );
   }
 }
