@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 
 class Score extends StatelessWidget {
   final int score;
-  int totalScore = 0;
-
   Score({this.score});
 
   @override
   Widget build(BuildContext context) {
+    //int totalScore = 0;
     return Center(
       child: Container(
           height: 200,

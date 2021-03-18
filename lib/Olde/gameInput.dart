@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_mig_100/Models/game.dart';
+/*import 'package:flutter/material.dart';
+
+import 'package:flutter_mig_100/models/game_item.dart';
+
 import 'package:flutter_mig_100/widgets/score.dart';
 
 class GameInput extends StatefulWidget {
@@ -20,9 +21,9 @@ class _GameInputState extends State<GameInput> {
   bool isQuestion = true;
   bool done = false;
   int total = 0;
-  List<Game> games = [];
+  List<GameItem> games = [];
   void addAnwer() {
-    Game game = new Game();
+    GameItem game = new GameItem();
     game.answer = _currentSliderValue.round();
     game.rightAnswer = 0;
     game.score = 0;
@@ -73,7 +74,7 @@ class _GameInputState extends State<GameInput> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hei'),
+        title: Text('He'),
       ),
       body: Container(
         child: Column(
@@ -173,3 +174,7 @@ class _GameInputState extends State<GameInput> {
     );
   }
 }
+
+*/
+
+
