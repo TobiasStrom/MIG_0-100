@@ -13,7 +13,7 @@ class _GameInputState extends State<GameInput> {
       children: [
         Text(
           _currentSliderValue.round().toString(),
-          style: TextStyle(fontSize: 30),
+          style: TextStyle(fontSize: 100),
         ),
         Slider(
           value: _currentSliderValue,

@@ -1,16 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mig_100/screens/game_list_screen.dart';
 
-class ResultScreen extends StatelessWidget {
-  static const routeName = '/game-result';
+class GameResultScreen extends StatelessWidget {
+  static final routeName = '/game-result';
 
-  var done = false;
-  var admin = false;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: Scaffold(
-          body: Center(child: Text('Results'))
+      child: Scaffold(
+        body: Column(
+          children: [
+            Text(
+              'Hei',
+              style: TextStyle(
+                fontSize: 26,
+              ),
+            ),
+          ],
         ),
+      ),
     );
   }
 }

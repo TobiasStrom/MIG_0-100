@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mig_100/screens/game_list_screen.dart';
+import 'package:flutter_mig_100/screens/game_partial_result_screen.dart';
 import 'package:flutter_mig_100/screens/game_result_screen.dart';
 import 'package:flutter_mig_100/screens/game_screen.dart';
 import 'package:flutter_mig_100/screens/game_waiting_screen.dart';
@@ -22,15 +23,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-
       routes: {
-        '/': (ctx) =>LogInScreen(),
-        SignInScreen.routeName : (ctx) => SignInScreen(),
-        GameListScreen.routeName : (ctx) => GameListScreen(),
-        NewGameScreen.routeName : (ctx) => NewGameScreen(),
-        GameWaitingScreen.routeName : (ctx) => GameWaitingScreen(),
-        GameScreen.routeName : (ctx) => GameScreen(),
-        ResultScreen.routeName : (ctx) => ResultScreen(),
+        '/': (ctx) => LogInScreen(),
+        SignInScreen.routeName: (ctx) => SignInScreen(),
+        GameListScreen.routeName: (ctx) => GameListScreen(),
+        NewGameScreen.routeName: (ctx) => NewGameScreen(),
+        GameWaitingScreen.routeName: (ctx) => GameWaitingScreen(),
+        GameScreen.routeName: (ctx) => GameScreen(),
+        GamePartialResultScreen.routeName: (ctx) => GamePartialResultScreen(),
+        GameResultScreen.routeName: (ctx) => GameResultScreen(),
       },
     );
   }

@@ -8,10 +8,15 @@ class GameInfo extends StatelessWidget {
         Text(
           'Round 1',
           style: TextStyle(
-            fontSize: 25,
+            fontSize: 40,
           ),
         ),
-        Text('Question 1'),
+        Text(
+          'Question 1',
+          style: TextStyle(
+            fontSize: 50,
+          ),
+        ),
       ],
     );
   }
